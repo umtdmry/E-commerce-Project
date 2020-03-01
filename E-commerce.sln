@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Entity", "E-commerce.Entity\E-commerce.Entity.csproj", "{14555CE9-41D6-4378-9137-9B984FF5FD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.DataAccess", "E-commerce.DataAccess\E-commerce.DataAccess.csproj", "{DBD595AB-3562-4B63-8D12-C4F97C671905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Business", "E-commerce.Business\E-commerce.Business.csproj", "{70AD63F9-528B-4889-9A2E-DB948B5C249A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.WebUI", "E-commerce.WebUI\E-commerce.WebUI.csproj", "{909ACC80-1EA3-46E1-B570-B25689C56070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14555CE9-41D6-4378-9137-9B984FF5FD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14555CE9-41D6-4378-9137-9B984FF5FD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14555CE9-41D6-4378-9137-9B984FF5FD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14555CE9-41D6-4378-9137-9B984FF5FD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD595AB-3562-4B63-8D12-C4F97C671905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD595AB-3562-4B63-8D12-C4F97C671905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD595AB-3562-4B63-8D12-C4F97C671905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD595AB-3562-4B63-8D12-C4F97C671905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AD63F9-528B-4889-9A2E-DB948B5C249A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AD63F9-528B-4889-9A2E-DB948B5C249A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AD63F9-528B-4889-9A2E-DB948B5C249A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AD63F9-528B-4889-9A2E-DB948B5C249A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909ACC80-1EA3-46E1-B570-B25689C56070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909ACC80-1EA3-46E1-B570-B25689C56070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909ACC80-1EA3-46E1-B570-B25689C56070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909ACC80-1EA3-46E1-B570-B25689C56070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
