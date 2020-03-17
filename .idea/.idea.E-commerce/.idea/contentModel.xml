@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\umutd\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\umutd\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\umutd\.Rider2019.3\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\umutd\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\umutd\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_E-commerce.-1462621722.00" t="ExcludeRecursive" />
     <e p="C:\Users\umutd\RiderProjects\E-commerce" t="IncludeFlat">
@@ -31,23 +34,28 @@
         <e p="Product.cs" t="Include" />
         <e p="ProductCategory.cs" t="Include" />
       </e>
-      <e p="E-commerce.Repositoryes" t="IncludeRecursive">
+      <e p="E-commerce.Repositories" t="IncludeRecursive">
         <e p="Abstract" t="Include">
+          <e p="IBaseRepository.cs" t="Include" />
           <e p="ICategoryRepository.cs" t="Include" />
+          <e p="IOrderRepository.cs" t="Include" />
           <e p="IProductRepository.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Concrete" t="Include">
           <e p="EFCore" t="Include">
+            <e p="EfCoreBaseRepository.cs" t="Include" />
             <e p="EFCoreCategoryRepository.cs" t="Include" />
+            <e p="EfCoreOrderRepository.cs" t="Include" />
             <e p="EfCoreProductRepository.cs" t="Include" />
+            <e p="ShopContext.cs" t="Include" />
           </e>
         </e>
-        <e p="E-commerce.Repositoryes.csproj" t="IncludeRecursive" />
+        <e p="E-commerce.Repositories.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="E-commerce.Repositoryes.AssemblyInfo.cs" t="Include" />
+              <e p="E-commerce.Repositories.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

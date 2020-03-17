@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Entity", "E-commerce.Entity\E-commerce.Entity.csproj", "{14555CE9-41D6-4378-9137-9B984FF5FD28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Repositoryes", "E-commerce.Repositoryes\E-commerce.Repositoryes.csproj", "{DBD595AB-3562-4B63-8D12-C4F97C671905}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Repositories", "E-commerce.Repositories\E-commerce.Repositories.csproj", "{DBD595AB-3562-4B63-8D12-C4F97C671905}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce.Business", "E-commerce.Business\E-commerce.Business.csproj", "{70AD63F9-528B-4889-9A2E-DB948B5C249A}"
 EndProject

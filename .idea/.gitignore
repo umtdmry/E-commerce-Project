@@ -1,2 +1,5 @@
 ﻿# Default ignored files
 /.idea.E-commerce/.idea/workspace.xml
+# Datasource local storage ignored files
+/.idea.E-commerce/.idea/dataSources.local.xml
+/.idea.E-commerce/.idea/dataSources/
