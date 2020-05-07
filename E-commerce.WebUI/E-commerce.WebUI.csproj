@@ -5,4 +5,14 @@
         <RootNamespace>E_commerce.WebUI</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\E-commerce.Business\E-commerce.Business.csproj" />
+      <ProjectReference Include="..\E-commerce.Entity\E-commerce.Entity.csproj" />
+      <ProjectReference Include="..\E-commerce.Repositories\E-commerce.Repositories.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+    </ItemGroup>
+
 </Project>

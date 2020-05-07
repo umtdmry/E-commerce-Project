@@ -9,7 +9,7 @@ namespace DataAccess.Abstract
     {
         TEntity GetById(int id);
         TEntity GetOne(Expression<Func<TEntity, bool>> filter);
-        IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> filter);
+        IEnumerable<TEntity> GetAll(Expression<Func<TEntity, bool>> filter=null);
 
         void Create(TEntity entity);
         void Delete(TEntity entity);

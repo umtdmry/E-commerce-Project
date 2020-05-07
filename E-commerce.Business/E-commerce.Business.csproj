@@ -5,4 +5,9 @@
         <RootNamespace>E_commerce.Business</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\E-commerce.Entity\E-commerce.Entity.csproj" />
+      <ProjectReference Include="..\E-commerce.Repositories\E-commerce.Repositories.csproj" />
+    </ItemGroup>
+
 </Project>

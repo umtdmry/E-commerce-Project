@@ -7,7 +7,12 @@ namespace DataAccess.Concrete.EFCore
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("jdbc:jtds:sqlserver://./;instance=<pipe name>;namedPipe=true");
+            optionsBuilder.UseSqlServer(@"jdbc:mysql://127.0.0.1:3306/ecommerce");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ProductCategory>().HasKey(c => new {c.categoryId, c.productId});
         }
 
         public DbSet<Product> Products { get; set; }
